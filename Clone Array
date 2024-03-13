@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	   int a[] = {1,2,3,4,5};
+	   System.out.println("Original Array");
+	   for(int i:a)
+	   System.out.println(i);
+	   int b[]= a.clone();
+	   System.out.println("Cloned Array");
+	   for(int i:b)
+	   	   System.out.println(i);
+	   	    System.out.println("Are they equal?");
+	   	    System.out.println(a==b);
+	}
+}   
